@@ -1,0 +1,31 @@
+[
+  {
+    "date":2018-02-03,
+    "events":[
+      {
+        "id":01,
+        "title":"Zumba by the pool.",
+        "time":"10:00pm",
+        "location":"uper level pool",
+        "description":"A fun relaxing event for all."
+        "coordinates": ""
+      },
+      {
+        "id":02,
+        "title":"Zumba by the pool.",
+        "time":"10:00pm",
+        "location":"uper level pool",
+        "description":"A fun relaxing event for all."
+        "coordinates": ""
+      },
+      {
+        "id":03,
+        "title":"Zumba by the pool.",
+        "time":"10:00pm",
+        "location":"uper level pool",
+        "description":"A fun relaxing event for all."
+        "coordinates": ""
+      },
+    ]
+  }
+]
