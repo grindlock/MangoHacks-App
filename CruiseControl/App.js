@@ -13,11 +13,15 @@ import {
 } from 'react-native';
 //import { TabNavigator, TabBarBottom} from 'react-navigation';
 import Tabs from './navigation/Navbar.js';
+import { Header } from './components';
 
 class App extends Component {
   render() {
     return (
-    <Tabs/>
+      <View style={{flex:1}}>
+        <Header />
+        <Tabs/>
+    </View>
     );
   }
 };

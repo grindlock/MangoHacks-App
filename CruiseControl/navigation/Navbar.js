@@ -3,7 +3,7 @@ import {
   Text,
   View
 } from 'react-native';
-import { TabNavigator } from 'react-navigation';
+import { TabNavigator, TabBarBottom } from 'react-navigation';
 import {Feed, Map, Home} from '../components';
 
 const Tabs = TabNavigator({
@@ -20,6 +20,15 @@ const Tabs = TabNavigator({
   Map: {
     screen: Map,
   },
+},
+  {
+    tabBarOptions:{
+      tabBarComponent: TabBarBottom,
+      tabBarPosition:'bottom',
+       activeTintColor:'red',
+       inactiveTintColor:'grey'
+    }
+
 });
 
 export default Tabs;
