@@ -22,12 +22,12 @@ const Tabs = TabNavigator({
   },
 },
   {
-    tabBarOptions:{
+
       tabBarComponent: TabBarBottom,
       tabBarPosition:'bottom',
        activeTintColor:'red',
        inactiveTintColor:'grey'
-    }
+    
 
 });
 
