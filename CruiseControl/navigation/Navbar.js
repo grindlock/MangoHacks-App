@@ -4,7 +4,7 @@ import {
   View
 } from 'react-native';
 import { TabNavigator } from 'react-navigation';
-import {Feed, Map, Home} from '../components';
+import {Feed, Map, Home, Events} from '../components';
 
 const Tabs = TabNavigator({
 
@@ -20,6 +20,9 @@ const Tabs = TabNavigator({
   Map: {
     screen: Map,
   },
+  Events:{
+    screen: Events,
+  }
 });
 
 export default Tabs;
