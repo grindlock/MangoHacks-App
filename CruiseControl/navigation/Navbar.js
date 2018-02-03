@@ -3,8 +3,13 @@ import {
   Text,
   View
 } from 'react-native';
+<<<<<<< HEAD
+import { TabNavigator } from 'react-navigation';
+import {Feed, Map, Home, Events} from '../components';
+=======
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 import {Feed, Map, Home} from '../components';
+>>>>>>> 65757aed9d569ff5609b35ee95428cc05dc3feba
 
 const Tabs = TabNavigator({
 
@@ -20,6 +25,11 @@ const Tabs = TabNavigator({
   Map: {
     screen: Map,
   },
+<<<<<<< HEAD
+  Events:{
+    screen: Events,
+  }
+=======
 },
   {
 
@@ -29,6 +39,7 @@ const Tabs = TabNavigator({
        inactiveTintColor:'grey'
     
 
+>>>>>>> 65757aed9d569ff5609b35ee95428cc05dc3feba
 });
 
 export default Tabs;
