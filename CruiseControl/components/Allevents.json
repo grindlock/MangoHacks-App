@@ -1,31 +1,38 @@
 [
   {
-    "date":2018-02-03,
-    "events":[
-      {
-        "id":01,
-        "title":"Zumba by the pool.",
-        "time":"10:00pm",
-        "location":"uper level pool",
-        "description":"A fun relaxing event for all."
-        "coordinates": ""
-      },
-      {
-        "id":02,
-        "title":"Zumba by the pool.",
-        "time":"10:00pm",
-        "location":"uper level pool",
-        "description":"A fun relaxing event for all."
-        "coordinates": ""
-      },
-      {
-        "id":03,
-        "title":"Zumba by the pool.",
-        "time":"10:00pm",
-        "location":"uper level pool",
-        "description":"A fun relaxing event for all."
-        "coordinates": ""
-      },
-    ]
+    "id": "01",
+    "date": "2018-02-03",
+    "title": "Zumba by the pool.",
+    "time": "10:00pm",
+    "location": "uper level pool",
+    "description": "A fun relaxing event for all.",
+    "coordinates": ""
+  },
+  {
+    "id": "02",
+    "date": "2018-02-03",
+    "title": "Zumba by the pool.",
+    "time": "10:00pm",
+    "location": "uper level pool",
+    "description": "A fun relaxing event for all.",
+    "coordinates": ""
+  },
+  {
+    "id": "03",
+    "date": "2018-02-03",
+    "title": "Zumba by the pool.",
+    "time": "10:00pm",
+    "location": "uper level pool",
+    "description": "A fun relaxing event for all.",
+    "coordinates": ""
+  },
+  {
+    "id": "04",
+    "date": "2018-02-04",
+    "title": "Have dinner with Rico Suave.",
+    "time": "80:00pm",
+    "location": "uper level Grand Hall restaurant",
+    "description": "A fun relaxing event for all.",
+    "coordinates": ""
   }
 ]

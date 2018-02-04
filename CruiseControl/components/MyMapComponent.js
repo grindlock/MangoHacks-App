@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   StyleSheet,
   View,
@@ -7,6 +7,7 @@ import {
 
 import MapView, { ProviderPropType } from 'react-native-maps';
 import XMarksTheSpot from './XMarksTheSpot';
+import {Header} from './Header';
 
 const { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
@@ -15,9 +16,9 @@ const LONGITUDE = -122.4324;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
-class Map extends React.Component {
+class MyMapComponent extends Component {
   constructor(props) {
-    super(props);
+     super(props);
 
     this.state = {
       region: {
@@ -55,6 +56,7 @@ class Map extends React.Component {
     const { coordinates, center, region } = this.state;
     return (
       <View style={styles.container}>
+        <Header headerTitle="Navigate"/>
         <MapView
           provider={this.props.provider}
           style={styles.map}
@@ -82,4 +84,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export {Map};
+export {MyMapComponent};

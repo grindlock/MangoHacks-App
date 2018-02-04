@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 import { View } from 'react-native';
 import { Polygon, Polyline, Marker } from 'react-native-maps';
 
-class XMarksTheSpot extends React.Component {
+class XMarksTheSpot extends Component {
   render() {
     return (
       <View>

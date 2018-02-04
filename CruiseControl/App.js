@@ -11,15 +11,19 @@ import {
   Text,
   View
 } from 'react-native';
-//import { TabNavigator, TabBarBottom} from 'react-navigation';
+import { TabNavigator, TabBarBottom} from 'react-navigation';
 import Tabs from './navigation/Navbar.js';
-import { Header } from './components';
+
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    state={headerTitle:null}
+  }
   render() {
     return (
       <View style={{flex:1}}>
-        <Header />
+
         <Tabs/>
     </View>
     );

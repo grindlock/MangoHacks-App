@@ -6,17 +6,22 @@ import {
   View
 } from 'react-native';
 
+import {Header} from './Header';
+
 class Feed extends Component{
+
 render(){
   return (
    <View style={styles.container}>
-      <Text style={styles.welcome}>Hello</Text>
+     <Header headerTitle="My Rewards"/>
+
    </View>
 
   );
   }
 }
 export {Feed};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

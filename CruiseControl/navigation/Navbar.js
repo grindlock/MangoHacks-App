@@ -3,24 +3,21 @@ import {
   Text,
   View
 } from 'react-native';
-
 import { TabNavigator, TabBarBottom } from 'react-navigation';
-import {Feed, Map, Home, Events} from '../components';
+import {Feed, Home, Events, MyMapComponent} from '../components';
 
 
 const Tabs = TabNavigator({
 
   Home:{
     screen:Home,
-    header:{
-      title:"Home",
-    }
+
   },
   Feed: {
     screen: Feed,
   },
-  Map: {
-    screen: Map,
+  MyMapComponent: {
+    screen: MyMapComponent,
   },
   Events:{
     screen: Events,
